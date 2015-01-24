@@ -12,7 +12,7 @@ An ecommerce platform written in C# Mvc 4. The main goal of the project is to ap
 
 #Base Goals
 We would like to create a system that allow users to:
-<u>
+<ul>
 <li>Navigate a catalog of products</li>
 <li>View product page</li>
 <li>Add a product to cart</li>
