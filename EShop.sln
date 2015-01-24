@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShop", "EShop\EShop.csproj", "{AE0DACD8-E6FD-408C-A5E8-2EB4F68C3721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShop.Tests", "EShop.Tests\EShop.Tests.csproj", "{861CB0B1-B875-4B45-888C-108F5E4B69F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE0DACD8-E6FD-408C-A5E8-2EB4F68C3721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0DACD8-E6FD-408C-A5E8-2EB4F68C3721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0DACD8-E6FD-408C-A5E8-2EB4F68C3721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0DACD8-E6FD-408C-A5E8-2EB4F68C3721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861CB0B1-B875-4B45-888C-108F5E4B69F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861CB0B1-B875-4B45-888C-108F5E4B69F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861CB0B1-B875-4B45-888C-108F5E4B69F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861CB0B1-B875-4B45-888C-108F5E4B69F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
