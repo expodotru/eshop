@@ -16,6 +16,6 @@ We would like to create a system that allow users to:
 <li>Navigate a catalog of products</li>
 <li>View product page</li>
 <li>Add a product to cart</li>
-<li>Checout the cart</li>
+<li>Complete the buying process</li>
 </ul>
 
