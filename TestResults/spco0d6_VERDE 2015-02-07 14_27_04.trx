@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3b186749-b6da-4a5b-bab1-0d1f43bc3f3c" name="spco0d6@VERDE 2015-02-07 14:27:04" runUser="verde\spco0d6" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="b7e03a2a-7d39-4ae4-82d8-473fc578a3a8">
+    <Deployment runDeploymentRoot="spco0d6_VERDE 2015-02-07 14_27_04">
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\EShop\bin\EShop.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\spco0d6\Dropbox\PROGETTI\3INNOVA\2015\ASP_Net_MVC\GitEShop\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-07T14:27:04.2079708+01:00" queuing="2015-02-07T14:27:11.6903987+01:00" start="2015-02-07T14:27:11.9934161+01:00" finish="2015-02-07T14:27:15.2866044+01:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="VERDE" outcome="Warning" timestamp="2015-02-07T14:27:11.6673974+01:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'log4net' directly or indirectly referenced by the test container 'c:\users\spco0d6\dropbox\progetti\3innova\2015\asp_net_mvc\giteshop\eshop.tests\bin\debug\eshop.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="VERDE" outcome="Warning" timestamp="2015-02-07T14:27:11.6683975+01:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Org.Mentalis.Security.Cryptography' directly or indirectly referenced by the test container 'c:\users\spco0d6\dropbox\progetti\3innova\2015\asp_net_mvc\giteshop\eshop.tests\bin\debug\eshop.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Contact" storage="c:\users\spco0d6\dropbox\progetti\3innova\2015\asp_net_mvc\giteshop\eshop.tests\bin\debug\eshop.tests.dll" id="720a0a9b-b829-c81d-3d19-3fe19ae38d90">
+      <Execution id="f2cee36a-024e-42b7-be2e-193e1d105ae3" />
+      <TestMethod codeBase="C:/Users/spco0d6/Dropbox/PROGETTI/3INNOVA/2015/ASP_Net_MVC/GitEShop/EShop.Tests/bin/Debug/EShop.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EShop.Tests.Controllers.HomeControllerTest, EShop.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\spco0d6\dropbox\progetti\3innova\2015\asp_net_mvc\giteshop\eshop.tests\bin\debug\eshop.tests.dll" id="e50e4ac7-de96-d9c0-80e7-3f3fee57b7aa">
+      <Execution id="370d65bd-2e30-4f48-a39e-0ee14866b205" />
+      <TestMethod codeBase="C:/Users/spco0d6/Dropbox/PROGETTI/3INNOVA/2015/ASP_Net_MVC/GitEShop/EShop.Tests/bin/Debug/EShop.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EShop.Tests.Controllers.HomeControllerTest, EShop.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\spco0d6\dropbox\progetti\3innova\2015\asp_net_mvc\giteshop\eshop.tests\bin\debug\eshop.tests.dll" id="66046c92-a6a5-940b-5f4f-6cb4117a3183">
+      <Execution id="1ab2a703-ad41-4c50-819d-c75f23ee1405" />
+      <TestMethod codeBase="C:/Users/spco0d6/Dropbox/PROGETTI/3INNOVA/2015/ASP_Net_MVC/GitEShop/EShop.Tests/bin/Debug/EShop.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EShop.Tests.Controllers.HomeControllerTest, EShop.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="66046c92-a6a5-940b-5f4f-6cb4117a3183" executionId="1ab2a703-ad41-4c50-819d-c75f23ee1405" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="720a0a9b-b829-c81d-3d19-3fe19ae38d90" executionId="f2cee36a-024e-42b7-be2e-193e1d105ae3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e50e4ac7-de96-d9c0-80e7-3f3fee57b7aa" executionId="370d65bd-2e30-4f48-a39e-0ee14866b205" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1ab2a703-ad41-4c50-819d-c75f23ee1405" testId="66046c92-a6a5-940b-5f4f-6cb4117a3183" testName="About" computerName="VERDE" duration="00:00:02.4962797" startTime="2015-02-07T14:27:12.1644258+01:00" endTime="2015-02-07T14:27:15.1335957+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ab2a703-ad41-4c50-819d-c75f23ee1405">
+    </UnitTestResult>
+    <UnitTestResult executionId="f2cee36a-024e-42b7-be2e-193e1d105ae3" testId="720a0a9b-b829-c81d-3d19-3fe19ae38d90" testName="Contact" computerName="VERDE" duration="00:00:00.0033049" startTime="2015-02-07T14:27:15.1355958+01:00" endTime="2015-02-07T14:27:15.1425962+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2cee36a-024e-42b7-be2e-193e1d105ae3">
+    </UnitTestResult>
+    <UnitTestResult executionId="370d65bd-2e30-4f48-a39e-0ee14866b205" testId="e50e4ac7-de96-d9c0-80e7-3f3fee57b7aa" testName="Index" computerName="VERDE" duration="00:00:00.0674471" startTime="2015-02-07T14:27:15.1435962+01:00" endTime="2015-02-07T14:27:15.2146003+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="370d65bd-2e30-4f48-a39e-0ee14866b205">
+    </UnitTestResult>
+  </Results>
+</TestRun>

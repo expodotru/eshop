@@ -1,0 +1,99 @@
+﻿@model EShop.Models.Category
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Category</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CreatedAt)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CreatedAt)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UpdatedAt)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UpdatedAt)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MetaTitle)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MetaTitle)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MetaDescription)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MetaDescription)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MetaKeyWords)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MetaKeyWords)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Description)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Description)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ParentId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ParentId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Path)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Path)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Position)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Position)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Level)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Level)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ChildrenCount)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ChildrenCount)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.CatId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
